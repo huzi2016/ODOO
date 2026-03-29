@@ -1,0 +1,55 @@
+ref,name,street,zip,city,country,email,is_company,customer_rank,active,property_account_position_id,property_payment_term_id,lang,phone
+10000,Löwen-Apotheke,Am Teich 9,24534,Neumünster,DE,,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,
+10001,Udo Rampf,Stieglbräugasse 18,85354,Freising,DE,info@kinderaerzte-freising.de,True,1,True,Domestic business partner,Bankeinzug (4% Skonto),de_DE,081617908
+10002,Ulrike Jeckel,Ostring 33,76829,Landau,DE,Ulrike.Jeckel@gmx.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,063419496020
+10003,Claudia Horn                            ,Erlenstraße 1 a,82194,Gröbenzell,DE,claudia.m.horn@gmx.net,True,1,False,Domestic business partner,Bankeinzug (4% Skonto),de_DE,08142 667375
+10004,Tobias Müller,Karl-Marx-Strasse 1,99885,Luisenthal,DE,,True,1,False,Domestic business partner,Immediate Payment,de_DE,
+10005,Marion Schnurrer,Amselweg 13 a,85391,Allershausen,DE,marion.schnurrer@t-online.de,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,08166998820
+10006,Franziska Seppi,Zainerweg 6,39037,Mühlbach,IT,franziska.seppi@yahoo.de,True,1,True,Business partner EU (without VAT ID),"7 Tage 2,00%, 14 Tage Netto",it_IT,
+10007,Sabine Konstanzer,Magirushof 49,89077,Ulm,DE,info@physioulm.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,073165254
+10008,Gudrun Weinmann,Neubergstrasse 35,97346,Iphofen,DE,weinmanng@gmx.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,093235184
+10009,Brigitte Boesten,Seipgensstraat 25,6164HM,Geleen,NL,b.boesten@ziggo.nl,True,1,True,Business partner EU (without VAT ID),"7 Tage 2,00%, 14 Tage Netto",nl_NL,0031653692033
+10010,Melissa Schnös                          ,Schultheißstr. 20,97478,Knetzgau,DE,melissa.schnoes@msn-haustechnik.de,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,09527 983
+10011,Laura Navarra,Ochsenzoller Strasse 161,22848,Norderstedt,DE,launav996@gmail.com,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,05117482902
+10012,Autocentro Carlo Steger SA,Via Adorna 36,6852,Genestrerio,CH,carlo@carlosteger.ch,True,1,True,Steuergebiete Drittland,"Vorkasse, Ware bleibt max. 14 Tage reserviert",de_DE,
+10013,Martin & Bettina Wurst                  ,Rilkestraße 18,71576,Burgstetten-Burgstall,DE,wurst-backnang@t-online.de,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,07191 85965
+10014,Detlef Schmidt,Hochstrasse 13,56112,Lahnstein,DE,,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,026216295745
+10015,Daisy Schepens,Molenberg 15,2450,Meerhout,BE,daisy.schepens@outlook.com,True,1,True,Business partner EU (without VAT ID),"7 Tage 2,00%, 14 Tage Netto",nl_NL,0032486464953
+10016,Susanne Zupan                           ,Stuttgarterweg 14,78554,Aldingen,DE,weberjasmin2004@aol.com,True,1,False,Domestic business partner,Bankeinzug (4% Skonto),de_DE,07424 9949991
+10017,Susanne Schwidden,Auf dem Stallberg 29,51145,Köln,DE,nc-schwidsu@netcologne.de,True,1,True,Domestic business partner,Bankeinzug (4% Skonto),de_DE,0220362369
+10018,Annette Falke,Löweweg 12,31157,Sarstedt,DE,,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,05066917966
+10019,Anton Weigandt,Wittekindsweg 32,49191,Belm,DE,,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,
+10020,Heemels-Goebbels-Lüdecke GbR,Alter Postweg 6,41379,Brüggen,DE,physio@paramed-brueggen.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,02163 9499588
+10021,VAMED Klinik Schloss Pulsnitz GmbH,Wittgensteiner Strasse 1,01896,Pulsnitz,DE,Christin.Hausdorf@vamed-gesundheit,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,03595551250
+10022,Irene Behr                              ,Eifgenweg 12 A,51061,Köln,DE,irene.behr.hp@web.de,True,1,True,Domestic business partner,Bankeinzug (4% Skonto),de_DE,02213018256
+10023,Hedi Simmler,Haldenstrasse 6,9532,Rickenbach b. Wil,CH,teddybaeren@bluewin.ch,True,1,True,Steuergebiete Drittland,"7 Tage 2,00%, 14 Tage Netto",de_DE,0041716587575
+10024,Elisabeth Wetzel,Paradiesstrasse 42,33129,Delbrück,DE,,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,0525041609
+10025,Günther Seidel                          ,König-Ludwig-Str. 12,85276,Pfaffenhofen,DE,,True,1,True,Domestic business partner,Bankeinzug (4% Skonto),de_DE,08441 789132
+10026,Arlene Schouten,Vergulden Wagen 48,1111TE,Diemen,NL,arlene@theskinshop.nl,True,1,True,Business partner EU (without VAT ID),"7 Tage 2,00%, 14 Tage Netto",nl_NL,
+10027,Inge Kirch-Blasius                      ,Franz-List-Str. 2,66649,Oberthal,DE,inge-kirch@web.de,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,06854 6600
+10028,Monika Henkel                           ,Schwabstr. 25,73312,Geislingen,DE,moni@schwabstrasse25.de,True,1,False,Domestic business partner,Bankeinzug (4% Skonto),de_DE,07331 8458
+10029,Dustin Heinatz,Max-Reger-Strasse 21,48165,Münster,DE,dheinatz@gmx.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,
+10030,Hildegard Bürger,Rheinstr. 12,66386,St. Ingbert,DE,,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,
+10031,Anke Madert                             ,Glück-auf-Strasse 37,66292,Riegelsberg,DE,anke.madert@t-online.de,True,1,True,Domestic business partner,Bankeinzug (4% Skonto),de_DE,06806 953360
+10032,Hans-Jürgen Tull,Hauptstr. 61,66773,Schwalbach,DE,,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,
+10033,Christiane Koke,Am Gänsegarten 2,48324,Sendenhorst,DE,praxis@ch-koke.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,02526937844
+10034,Cornelia Seiwert                        ,Homzratherstr. 74,66701,Beckingen,DE,naturheilpraxis.seiwert@googlemail.com,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,06835 6082057
+10035,Silke Harborth                          ,Dammstr. 21-23,30989,Gehrden,DE,silke.harborth@gmx.de,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,0151 082331
+10036,Annelies Schwarz-Goehr                  ,Ludwigstraße 13,82435,Bad Bayersoien,DE,,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,08845 8799
+10037,Diana Sandmann,Jakobstrasse 7 B,39104,Magdeburg,DE,teedsandmann@web.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,03915410083
+10038,Gertraud Wackerbauer                    ,Frauensattlingerstr. 47 C,84137,Vilsbiburg,DE,,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,08741 8841
+10039,Doris Mark,Unterdorf 108 B,6473,Wenns,AT,doris.mark@aon.de,True,1,True,Business partner EU (without VAT ID),"7 Tage 2,00%, 14 Tage Netto",de_DE,00436508680900
+10040,Christiane Wiemann,Schüttwall 8,59387,Ascheberg,DE,wiemach@online.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,01702402050
+10041,Thurid Sandra Deneke,Höhenweg 34,33142,Büren,DE,thurid-sandra.deneke@web.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,029519355763
+10042,Tino Pöhlmann                           ,Josephspitalstrasse 6,80331,München,DE,info@feet-back.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,08923032944 + 45
+10043,Marion Berger,An den Zehn Nussbäumen 7,56077,Koblenz,DE,dr.marion.berger@gmx.de,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,0261671991
+10044,Ingo Kramer,Ludwigstrasse 4,59846,Sundern,DE,i.kr@mer-online.de,True,1,True,Domestic business partner,Bankeinzug (4% Skonto),de_DE,05150580593
+10045,Michaela Schwab,Suddersdorf 25,91575,Windsbach,DE,mischa-red@web.de,True,1,True,Domestic business partner,Bankeinzug (4% Skonto),de_DE,09871477
+10046,Sven Müller,Ringstrasse 19,95191,Leupoldsgrün,DE,sven.mueller.1970@me.com,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,
+10047,Roswitha Bodenstein-Lukate,Brühler Ring 17,68219,Mannheim,DE,bsteinphysio@hotmail.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,01798852198
+10048,Kristiane Engel,Herdweg 100,71032,Böblingen,DE,Jany@germanynet.de,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,07031811935
+10049,Angela Pidutti,Kirchstrasse 22,74357,Bönnigheim,DE,angela.pidutti78@gmail.com,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,
+10050,Ulrich Weil                             ,Karlsbader Str. 10,35519,Rockenberg,DE,,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,06033 8906014
+10051,Judith Boether,Camphausenstrasse 16,14165,Berlin,DE,jk@krautheim-concepts.com,True,1,True,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,
+10052,Christa Opitz-Böhm                      ,Bgm.-Seidl-Str. 13 A,82515,Wolfratshausen,DE,c.opitz-boehm@gmx.de,True,1,False,Domestic business partner,Bankeinzug (4% Skonto),de_DE,08171 480419
+10053,Julia Tews,Vogelsang 6,33104,Paderborn / Marienloh,DE,k-tews@t-online.de,True,1,False,Domestic business partner,"7 Tage 2,00%, 14 Tage Netto",de_DE,

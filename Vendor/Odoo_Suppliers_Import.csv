@@ -1,0 +1,17 @@
+ref,name,street,zip,city,country,email,phone,property_account_position_id,is_company,active
+71904,ANS E-Trade GmbH,An der Steig 22L,55271,Stadecken-Elsheim,DE,,,,True,True
+71903,RWmedical GmbH,Ziegelohring 9,6636,Laucha an der Unstrut,DE,robbyweber@rwmedical.de,34462696710,,True,True
+71902,Böttcher AG,Stadtrodaer Landstraße 1,7751,Jena-Zöllnitz,DE,auftrag@bueromarkt-ag.de,364131130,,True,True
+71901,NeuroVasc Technologies Inc.,"3 Jenner, Suite 100",CA 92 618,Irvine,US,,,Steuergebiete Drittland,True,True
+71900,"Weigao Medical International Co., Ltd",No.1 Weigao Road of High-tech Industrial Development Zone,264210,,CN,,"8,66316E+11",Steuergebiete Drittland,True,True
+71899,Keerl GmbH,Uphauser Weg 73,32429,Minden,DE,minden@pro.de,57150470,,True,False
+71898,Shandong Weigao orthopaedic Device Co.Ltd,"No 26 Xiangjiang Road ,Tourist Resorts",264200,Weihai,CN,,,Steuergebiete Drittland,True,True
+71897,AMEFA GmbH,In den Fritzenstücker 9 - 11,65549,Limburg,DE,kontakt@amefa-med.com,64317302200,,True,True
+71896,Co-med GmbH & Co. KG,Hochstrasse 1,66265,Heusweiler,DE,portal@co-med.de,6806308820,,True,True
+71895,SL-Medizintechnik GmbH,Im Langen Feld 4,71711,Murr,DE,info@magnetovital.de,714485600,,True,True
+71894,Praxisdienst GmbH & Co KG,Trierer Strasse 43-47,54340,Longuich,DE,info@praxisdienst.de,6502916920,,True,True
+71893,Deutscher Ärzteverlag GmbH,Dieselstrasse 2,50859,Köln,DE,helmus@aerzteverlag.de,22347011334,,True,True
+71892,HKS health solutions GmbH Austria,Gewerbestrasse 32,5211,Lengau,AT,bestellung@thustmed.com,8005556770,EU-Auslands,True,True
+71891,Zellstoff-Vertriebs GmbH & Co.KG,Urbacher Straße 4+5,53842,Troisdorf,DE,m.lubecki@zvg-gmbh.de,7142912316,,True,True
+71890,medida GmbH & Co. KG,Carl-Benz-Strasse 18,68649,Groß-Rohrheim,DE,mail@medida.de,624529720,,True,True
+71889,Calopad AG,Neuenkirchstrasse 19,6203,Sempach Station,CH,,41445852726,,True,True
