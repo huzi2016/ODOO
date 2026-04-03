@@ -7,9 +7,7 @@
     'website': '',
     'category': 'Technical',
     'depends': ['base', 'base_setup'],
-    'data': [
-        'views/res_config_settings_views.xml',
-    ],
+    'data': [],
     'installable': True,
     'application': False,
     'auto_install': False,
