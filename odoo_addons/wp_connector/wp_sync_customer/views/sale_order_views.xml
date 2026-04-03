@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- ── Quotations / Sale Orders list: add WooCommerce Order column ── -->
+    <record id="view_quotation_tree_wc_order" model="ir.ui.view">
+        <field name="name">sale.order.tree.wc_order</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree_with_onboarding"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="wc_order_id"
+                       string="WooCommerce #"
+                       optional="show"
+                       decoration-info="wc_order_id != False"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- ── Sale Orders list (confirmed orders view) ── -->
+    <record id="view_order_tree_wc_order" model="ir.ui.view">
+        <field name="name">sale.order.tree.orders.wc_order</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="wc_order_id"
+                       string="WooCommerce #"
+                       optional="show"
+                       decoration-info="wc_order_id != False"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- ── Sale Order form: show WC order in the header area ── -->
+    <record id="view_order_form_wc_order" model="ir.ui.view">
+        <field name="name">sale.order.form.wc_order</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='client_order_ref']" position="after">
+                <field name="wc_order_id"
+                       string="WooCommerce Order #"
+                       readonly="1"
+                       attrs="{'invisible': [('wc_order_id', '=', False)]}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

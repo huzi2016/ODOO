@@ -3,6 +3,7 @@ import logging
 from odoo import http
 from odoo.http import request
 from odoo.addons.wp_base.controllers.base import WpBaseController
+from odoo.addons.wp_base.utils.api_client import WooCommerceClient
 
 _logger = logging.getLogger(__name__)
 
@@ -80,7 +81,16 @@ class WpCustomerController(WpBaseController):
                 name=full_name,
             )
 
-        return {'status': 'success', 'odoo_id': parent.id}
+        odoo_id = parent.id
+
+        # ── 6. Write Odoo partner_id back to WordPress user meta ─────────
+        # This keeps _loc_odoo_partner_id in sync so the WP plugin never
+        # uses a stale / deleted partner id when pushing sale orders.
+        wp_user_id = data.get('id')
+        if wp_user_id:
+            self._writeback_partner_id(wp_user_id, odoo_id)
+
+        return {'status': 'success', 'odoo_id': odoo_id}
 
     # ─────────────────────────────────────────────────────────────────────
     def _sync_address(self, Partner, Country, parent, addr_type, addr_data, name):
@@ -111,3 +121,39 @@ class WpCustomerController(WpBaseController):
         _logger.info(
             'WP Sync: Created %s address for partner id=%s', addr_type, parent.id
         )
+
+    # ─────────────────────────────────────────────────────────────────────
+    def _writeback_partner_id(self, wp_user_id: int, odoo_partner_id: int):
+        """
+        POST the resolved Odoo partner id back to WooCommerce so that
+        wp_usermeta._loc_odoo_partner_id is always up to date.
+
+        WooCommerce REST endpoint used:
+            PUT /wp-json/wc/v3/customers/<wp_user_id>
+        with a custom meta_data payload.
+
+        Failures are logged but never raised — the sync_customer response
+        must not fail just because the write-back could not complete.
+        """
+        try:
+            client = WooCommerceClient(request.env)
+            client.put(
+                f'customers/{wp_user_id}',
+                {
+                    'meta_data': [
+                        {
+                            'key': '_loc_odoo_partner_id',
+                            'value': str(odoo_partner_id),
+                        }
+                    ]
+                },
+            )
+            _logger.info(
+                'WP Sync: wrote back odoo_partner_id=%s to WP user %s',
+                odoo_partner_id, wp_user_id,
+            )
+        except Exception as exc:
+            _logger.warning(
+                'WP Sync: could not write back partner_id to WP user %s: %s',
+                wp_user_id, exc,
+            )
