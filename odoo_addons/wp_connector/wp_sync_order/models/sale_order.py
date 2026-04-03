@@ -5,15 +5,6 @@ from odoo.addons.wp_base.utils import WooCommerceClient
 
 _logger = logging.getLogger(__name__)
 
-# Odoo sale.order state → WooCommerce order status
-_ODOO_TO_WC_STATUS = {
-    'draft':  'pending',
-    'sent':   'pending',
-    'sale':   'processing',
-    'done':   'completed',
-    'cancel': 'cancelled',
-}
-
 
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
@@ -21,48 +12,66 @@ class SaleOrder(models.Model):
     wc_order_id = fields.Integer(
         string='WooCommerce Order ID',
         copy=False,
-        help='The WooCommerce order ID linked to this sale order. '
-             'Set automatically when a WC order webhook is received.',
+        help='Populated automatically from client_order_ref (WC#xxxxx) '
+             'or set manually. Used to push status back to WooCommerce.',
     )
 
-    # ── status push ───────────────────────────────────────────────────────
+    # ── WC order ID resolution ────────────────────────────────────────────
+
+    def _resolve_wc_order_id(self):
+        """Return the WC order ID for this sale order.
+
+        Priority:
+        1. wc_order_id field (manual override)
+        2. client_order_ref in format 'WC#12345' (set by LIMO Odoo Connector WP plugin)
+        """
+        if self.wc_order_id:
+            return self.wc_order_id
+        ref = (self.client_order_ref or '').strip()
+        if ref.upper().startswith('WC#'):
+            try:
+                return int(ref[3:])
+            except ValueError:
+                pass
+        return 0
+
+    # ── Status push ───────────────────────────────────────────────────────
 
     def _push_wc_status(self, wc_status):
-        """Push *wc_status* to every linked WooCommerce order.
+        """Push *wc_status* to WooCommerce for each order that has a resolvable WC order ID.
 
-        Silently logs and skips orders without a wc_order_id or when the
-        WooCommerce API is not reachable, so Odoo workflows are never blocked.
+        Errors are logged but never raise, so Odoo workflows are never blocked.
         """
-        for order in self.filtered('wc_order_id'):
+        for order in self:
+            wc_id = order._resolve_wc_order_id()
+            if not wc_id:
+                continue
             try:
                 client = WooCommerceClient(self.env)
-                client.put(f'orders/{order.wc_order_id}', {'status': wc_status})
+                client.put(f'orders/{wc_id}', {'status': wc_status})
                 _logger.info(
                     'WP Sync Order: %s → WC #%s set to "%s"',
-                    order.name, order.wc_order_id, wc_status,
+                    order.name, wc_id, wc_status,
                 )
             except Exception as exc:
                 _logger.error(
                     'WP Sync Order: failed to update WC #%s to "%s": %s',
-                    order.wc_order_id, wc_status, exc,
+                    wc_id, wc_status, exc,
                 )
 
     # ── Odoo action overrides ─────────────────────────────────────────────
 
     def action_confirm(self):
-        """Confirmed → WC: processing"""
         result = super().action_confirm()
         self._push_wc_status('processing')
         return result
 
     def action_lock(self):
-        """Locked / Done → WC: completed"""
         result = super().action_lock()
         self._push_wc_status('completed')
         return result
 
     def action_cancel(self):
-        """Cancelled → WC: cancelled"""
         result = super().action_cancel()
         self._push_wc_status('cancelled')
         return result
