@@ -1,8 +1,8 @@
 {
-    'name': 'WooCommerce Sync Customer',
-    'version': '1.0.0',
-    'summary': 'Sync customers between Odoo and WooCommerce',
-    'description': 'Handles customer synchronisation between Odoo and WooCommerce.',
+    'name': 'LIMO WP Sync Customer',
+    'version': '19.0.1.0.0',
+    'summary': 'Sync customers between WordPress and Odoo',
+    'description': 'Handles customer synchronisation from WordPress to Odoo.',
     'author': '',
     'website': '',
     'category': 'Technical',
