@@ -1,0 +1,7 @@
+name,category_id/name,uom_type,factor
+Stück,Unit,reference,1.0
+Btl,Unit,bigger,1.0
+Dose,Unit,bigger,1.0
+Ktn,Unit,bigger,1.0
+Rolle,Unit,bigger,1.0
+Str,Unit,bigger,1.0

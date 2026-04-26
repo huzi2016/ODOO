@@ -35,7 +35,7 @@ class SaleOrder(models.Model):
                 pass
         return 0
 
-    # ── Status push ───────────────────────────────────────────────────────
+    # ── Status push ──────────────────────────────────────────────────────────
 
     def _push_wc_status(self, wc_status):
         """Push *wc_status* to WooCommerce for each order that has a resolvable WC order ID.
@@ -59,7 +59,7 @@ class SaleOrder(models.Model):
                     wc_id, wc_status, exc,
                 )
 
-    # ── Odoo action overrides ─────────────────────────────────────────────
+    # ── Odoo action overrides ──────────────────────────────────────────────
 
     def action_confirm(self):
         result = super().action_confirm()

@@ -1,0 +1,474 @@
+﻿Hauptartikelgruppe,VaterArtikelgruppe,Artikelgruppe,Bezeichnung,Gruppenebene
+1,EMPTY,1,"Skelette, Anat.Modelle, Lehrmittel",1
+2,EMPTY,2,Labor,1
+4,EMPTY,4,Einrichtung & Organisation,1
+5,EMPTY,5,Homöopathie,1
+6,EMPTY,6,Tensoren & Ruten,1
+7,EMPTY,7,Liegen & Zubehör,1
+A,EMPTY,A,Infusion & Injektion,1
+B,EMPTY,B,Verbandsmaterial,1
+C,EMPTY,C,Taping,1
+D,EMPTY,D,Lehrmaterialien,1
+E,EMPTY,E,Sammelgruppierung Artikelzubehör,1
+F,EMPTY,F,Baunscheidt,1
+G,EMPTY,G,Desinfektion & Hygiene,1
+I,EMPTY,I,Diagnostik,1
+J,EMPTY,J,Allgemeiner Praxisbedarf,1
+K,EMPTY,K,Erste Hilfe & Notfall,1
+L,EMPTY,L,Hocker & Lagerungsmaterial,1
+M,EMPTY,M,Schröpfen,1
+N,EMPTY,N,Nahrungsergänzung,1
+O,EMPTY,O,Ozontherapie,1
+Ortho,EMPTY,Ortho,Orthopädie,1
+Q,EMPTY,Q,Akupunktur,1
+R,EMPTY,R,Bücher & Medien,1
+T,EMPTY,T,Therapiebedarf & - geräte,1
+U,EMPTY,U,Sonstiges,1
+Y,EMPTY,Y,Massage & Wellness,1
+Z,EMPTY,Z,Fundgrube,1
+1,1,1b,Tier,2
+1,1,1c,"Lehrmittel, Übungsobjekte",2
+2,2,2a,Schnelldiagnostik,2
+2,2,2b,Glaswaren,2
+2,2,2c,Instrumente,2
+2,2,2d,Labordiagnostik,2
+2,2,2e,Laborgeräte,2
+2,2,2f,Laborutensilien,2
+2,2,2g,Lehrbücher,2
+2,2,2h,Blutentnahmesysteme,2
+4,4,4a,Praxiseinrichtung,2
+4,4,4b,Praxisorganisation,2
+4,4,4c,"Arztkoffer, Ampullarien",2
+5,5,5a,Etuis und Mappen,2
+5,5,5b,Gläschen/Flaschen/Globuli/Zubehör,2
+5,5,5c,Sortierhilfen,2
+5,5,5d,Literatur Homöopathie,2
+6,6,6a,Pendel,2
+6,6,6b,Rutensysteme,2
+6,6,6c,Einzelruten,2
+6,6,6d,"Zubehör, Handtaster",2
+7,7,7b,Massage- & Wellnessliegen,2
+7,7,7c,methatec-Liegen,2
+7,7,7d,Mobile Behandlungsliegen,2
+7,7,7e,REZILA - Behandlungsliegen,2
+7,7,7f,Therapie- & Massagestühle,2
+7,7,7g,Untersuchungsliegen,2
+7,7,7h,Liegenbezüge / Fußauflagen,2
+7,7,7i,Osteopathieliegen,2
+7,7,7j,Chirotherapieliegen,2
+7,7,7k,Infusionsliegen,2
+A,A,Aa,Infusion & Transfusion,2
+A,A,Ab,Tupfer und Zubehör,2
+A,A,Ad,Kanülen und Zubehör,2
+A,A,Ae,Lehrbücher,2
+A,A,Af,Spritzen und Zubehör,2
+A,A,Ag,Entsorgung,2
+A,A,Ah,Venenstauer,2
+A,A,Ai,Venensuchgeräte,2
+B,B,Bb,"Kompressen, unsteril",2
+B,B,Bc,"Kompressen, steril",2
+B,B,Bd,Pflaster,2
+B,B,Be,Verbandsbinden,2
+B,B,Bf,Verbandsstoffe-Zubehör,2
+B,B,Bg,Verbandzellstoff / -mull,2
+C,C,Ca,AcuTop Gittertapes,2
+C,C,Cb,Kinesiologische Tapes,2
+C,C,Cc,Literatur / Lehrmaterial,2
+C,C,Cd,Taping Zubehör,2
+C,C,Ce,alt,2
+D,D,Da,Karten / Poster,2
+D,D,Db,Skelette / Anat. Modelle,2
+E,E,Ea,Laserneedle,2
+E,E,Eb,Tefra,2
+E,E,Ec,Laser,2
+E,E,Ed,Colon,2
+E,E,Ee,Sterilisation,2
+E,E,Ef,Diagnostik,2
+E,E,Eg,Akupunktur,2
+E,E,Eh,Lehrmittel,2
+E,E,Ei,Schröpfen,2
+E,E,Ej,Physikalische Therapie,2
+E,E,Ek,Behandlungsliegen Falkner,2
+E,E,El,Behandlungsliegen Rezila,2
+E,E,Em,Behandlungsliegen Pader,2
+E,E,En,Wellness,2
+E,E,Eo,Esoterik,2
+E,E,Ep,Behandlungsliegen Naggura,2
+E,E,Eq,EAV-Zubehör,2
+E,E,Er,Desinfektion,2
+E,E,Es,Labor,2
+E,E,Et,Trainingsgeräte,2
+E,E,Eu,Behandlungsliegen relax Sensation,2
+F,F,Fa,Einmalnadelkopf (steril),2
+F,F,Fb,Nadelapparate,2
+F,F,Fc,Nadelroller,2
+F,F,Fd,Lehrmaterial zur Baunscheidt-Therapie,2
+G,G,Ga,Desinfektionspläne,2
+G,G,Gb,Flächendesinfektion ,2
+G,G,Gc,Händedesinfektion,2
+G,G,Gd,Händereinigung & Pflege,2
+G,G,Ge,Instrumentendesinfektion,2
+G,G,Gf,Liegen- und Hygienepapier,2
+G,G,Gg,Wandspender und Zubehör,2
+G,G,Gh,Hautdesinfektion,2
+G,G,Gi,Handschuhe & Schutz,2
+I,I,Ia,Blutdruckmessgeräte,2
+I,I,Ib,Otoskope & Leuchten,2
+I,I,Ic,Irisdiagnose,2
+I,I,Id,Stethoskope,2
+I,I,Ie,Thermometer,2
+I,I,If,Messen und Wiegen,2
+I,I,Ig,Diverse Diagnosegeräte,2
+I,I,Ih,Lehrbücher Diagnose,2
+I,I,Ii,Reflexhämmer,2
+I,I,Ij,Diagnostik-Sets,2
+I,I,Ik,Elektroakupunktur nach Voll,2
+I,I,Il,Diagnosegeräte Haut & Haar,2
+J,J,Ja,Nierenschalen,2
+J,J,Jb,Mundspatel,2
+J,J,Jc,Wattestäbchen,2
+J,J,Jd,Einmal-Instrumente,2
+J,J,Je,Ultraschallgel,2
+J,J,Jf,"Chirurg. Einmal-Sets, steril",2
+J,J,Jg,"Einmal-Sets, steril",2
+J,J,Jh,Frauenkatheter,2
+J,J,Ji,Instrumente,2
+K,K,Ka,Erste Hilfe,2
+K,K,Kb,Notfall,2
+L,L,La,Hocker,2
+L,L,Lb,Lagerungsmaterial,2
+M,M,Ma,Schröpfgläser mit Ball,2
+M,M,Mb,Pulsierendes Schröpfsystem,2
+M,M,Mc,Einweg-Schröpfköpfe,2
+M,M,Md,Schröpf - Sets,2
+M,M,Me,Schröpfgläser ohne Ball,2
+M,M,Mf,Schröpfgläser nach Celik,2
+M,M,Mg,Literatur,2
+M,M,Mh,BellaBambi,2
+N,N,Na,Mitochondriale Medizin,2
+N,N,Nb,Hildegard von Bingen,2
+N,N,Nc,livQ - fermentierte Produkte,2
+N,N,Nd,Heidelbergers 7 Kräuter-Stern,2
+N,N,Ne,Salze und Tees,2
+N,N,Nf,Nutri Balance Produkte,2
+N,N,Ng,Thustmed,2
+O,O,Oa,Ultra-Asept Spritzen,2
+O,O,Ob,Ozongeräte & Zubehör,2
+O,O,Oc,SANGISET,2
+O,O,Od,Natriumcitrat,2
+O,O,Oe,Vakuumflaschen,2
+Q,Q,Qa,Akupressur - Massage,2
+Q,Q,Qb,Akupunktur - Modelle,2
+Q,Q,Qc,Akupunktur - Zubehör,2
+Q,Q,Qd,Akupunktur - Nadeln,2
+Q,Q,Qe,Elektro - Akupunktur,2
+Q,Q,Qf,Laser - Akupunktur,2
+Q,Q,Qg,Moxa - Moxibustion,2
+Q,Q,Qh,Lehrbücher zur Akupunktur,2
+Q,Q,Qi,NeoAcu Nadelapplikator,2
+R,R,Ra,"Licht-,Wärme-, Farbtherapie",2
+R,R,Rb,medizin. Themen/ Labor,2
+R,R,Rc,Alternative Heilverfahren,2
+R,R,Rd,Astrologie*,2
+R,R,Rf,Chakra*,2
+R,R,Rg,TCM,2
+R,R,Rh,Ernährung,2
+R,R,Ri,Feng Shui,2
+R,R,Rj,Diagnostik/ Irisdiagnose,2
+R,R,Rk,"Lexica, Rechtskunde",2
+R,R,Rl,Homöopathie/Bachblüten/Salze *,2
+R,R,Rm,"Homöopathie, Bachblüten, Salze",2
+R,R,Rn,Hypnose,2
+R,R,Ro,Manuelle Medizin,2
+R,R,Rp,"Labor, Medizin",2
+R,R,Rq,Alternative Heilverfahren,2
+R,R,Rr,Esoterik / Entspannung,2
+R,R,Rs,Laser-& physik. Therapie,2
+R,R,Rt,"Ayurveda, Reiki*",2
+R,R,Ru,Schröpfen,2
+R,R,Rv,Tiermedizin,2
+R,R,Rw,HP-Prüfungsfragen/Prüfung*,2
+R,R,Ry,Taping,2
+T,T,Ta,Colon,2
+T,T,Tb,Thermotherapie & Wärmeprodukte,2
+T,T,Td,O2 - Therapie,2
+T,T,Te,Schmerz- & Magnetfeldtherapie,2
+T,T,Tg,Bestrahlungsgeräte,2
+T,T,Ti,Inhalation,2
+T,T,Tk,Trainingstherapie,2
+Y,Y,Ya,Cremes / Lotionen / Öle,2
+Y,Y,Yb,Räucherstäbchen und Zubehör,2
+Y,Y,Yc,Fußpflege / Fußbäder,2
+Y,Y,Yd,Massagegeräte & -zubehör,2
+Y,Y,Ye,Hot Stone und Heilsteine,2
+Y,Y,Yf,Ohrkerzen,2
+Y,Y,Yh,Sonstiges,2
+Y,Y,Yj,VenenWalker,2
+Y,Y,Yk,Ayurveda,2
+Y,Y,Yl,Mund- und Zahnpflege,2
+Y,Y,Ym,Massagetools,2
+Y,Y,Yn,Vaculift,2
+Z,Z,Za,30% Rabatt,2
+Z,Z,Zb,Gebrauchte Behandlungsliegen,2
+Z,Z,Zc,50% Rabatt,2
+Z,Z,Zd,70% Rabatt,2
+2,2a,2aa,Accu-Check,3
+2,2a,2ab,Accutrend Plus,3
+2,2a,2ac,Beurer GL - Produkte,3
+2,2a,2ad,Combur - Teststreifen,3
+2,2a,2ae,Covid-19 - Teststreifen,3
+2,2a,2af,Servo - Teststreifen,3
+2,2b,2ba,Bechergläser,3
+2,2b,2bb,Einmal-Kapillaren,3
+2,2b,2bc,Instrumentenschalen,3
+2,2b,2bd,Meßzylinder,3
+2,2b,2be,Petrischalen,3
+2,2b,2bf,Pipetten und Zubehör,3
+2,2b,2bg,Reagenzgläser / Halter,3
+2,2b,2bh,Steilbrustflaschen,3
+2,2b,2bi,Tonsillenabsaugbesteck,3
+2,2b,2bj,Überschichtungsglas,3
+2,2c,2cb,Scheren,3
+2,2c,2cc,Watteträger / Tupferzangen*,3
+2,2c,2cd,Pinzetten,3
+2,2d,2da,Blutsenkung,3
+2,2d,2dc,Pipetten und Zubehör,3
+2,2e,2ea,Mikroskopie und Zubehör,3
+2,2e,2eb,Zentrifugen und Zubehör,3
+2,2h,2ha,Sarstedt,3
+2,2h,2hb,Vacutainer,3
+4,4a,4aa,Infusionsständer & -zubehör,3
+4,4a,4ab,"Praxis- und Therapiehocker, fixe Höhe",3
+4,4a,4ac,sonstige Einrichtung,3
+4,4a,4ae,Spendersysteme,3
+4,4a,4ag,Vielzweckwagen & Zubehör,3
+4,4a,4ah,Schränke,3
+4,4a,4ai,Untersuchungsleuchte,3
+4,4a,4aj,Ultraschallreiniger & Steris,3
+4,4a,4al,Luftreiniger -befeuchter,3
+4,4a,4am,Krankengymnastik,3
+4,4b,4ba,Büromaterial Rechnung und Termin,3
+4,4b,4bb,Hinweisschilder,3
+4,4b,4bc,Wegweiser,3
+5,5a,5aa,"für 1,5 g und 2 g Gläschen",3
+5,5a,5ab,für 1 g Gläschen,3
+5,5a,5ac,für Bachblüten,3
+5,5a,5ad,für Schraubverschlussgläser,3
+5,5a,5ae,für Tuben & Gläschen bis 5g,3
+5,5a,5af,Rollapotheken,3
+5,5a,5ag,Taschenapotheken,3
+5,5b,5ba,Flachbodengläschen,3
+5,5b,5bb,für Bachblüten,3
+5,5b,5bc,Globuli,3
+5,5b,5bd,Medizinflaschen & Zubehör,3
+5,5b,5be,Pipettenmontur,3
+5,5b,5bf,Rollrandgläschen,3
+5,5b,5bg,Schlüsselanhänger,3
+5,5b,5bh,Schraubverschlussgläschen,3
+5,5b,5bi,Tablettenglas,3
+5,5d,5da,Buchreihe Roy: Homöopathische Ratgeber,3
+5,5d,5db,weitere Bücher,3
+6,6b,6ba,System Borea,3
+6,6b,6bb,System Osiris,3
+6,6c,6ca,mit Holz oder Korkgriff,3
+6,6c,6cb,mit Metallgriff,3
+6,6c,6cc,aus dem Karnutenwald,3
+7,7b,7ba,Relax Sensation,3
+7,7b,7bb,Massageliegen aus Holz,3
+7,7d,7da,"Höhenverstellbar, 2-teilig",3
+7,7d,7db,"Höhenverstellbar, 3-teilig",3
+7,7h,7ha,Breite/Länge 60/190 - 70/200,3
+7,7h,7hb,Breite/Länge 75/190 - 85/200,3
+7,7h,7hc,Fangolaken,3
+7,7h,7hd,Fußauflagen / Gummispanner,3
+A,Ad,Ada,BRAUN Dentalkanülen,3
+A,Ad,Adb,BRAUN Kanülen,3
+A,Ad,Add,Kanülen Sondergrößen,3
+A,Ad,Adf,Microlance Kanülen,3
+A,Ad,Adg,Terumo Kanülen,3
+A,Ad,Adh,Venenpunktionskanülen,3
+A,Ad,Adi,Venenverweilkanülen,3
+A,Af,Afa,BRAUN Injekt Spritzen,3
+A,Af,Afb,BRAUN Omnifix Spritzen,3
+A,Af,Afc,Einmal-Spritzen,3
+A,Af,Afe,Spritzen-Zubehör,3
+A,Af,Aff,Sterilisierbare Spritzen,3
+B,Ba,Baa,Literatur,3
+B,Bd,Bda,Askina,3
+B,Bd,Bdb,Hansaplast,3
+B,Bd,Bdd,Injektionspflaster,3
+B,Bd,Bde,"Leukoplast, Leukosilk, Leukopor",3
+B,Bd,Bdf,Leukopor,3
+B,Bd,Bdg,Leukosilk ,3
+B,Be,Bea,Comprilan,3
+B,Be,Beb,Elastomull,3
+B,Be,Bec,Gazofix,3
+B,Be,Bed,Askina,3
+B,Bf,Bfa,Kältesprays,3
+C,Ca,Caa,Gitter-Tape Typ A,3
+C,Ca,Cab,Gitter-Tape Typ B,3
+C,Ca,Cac,Gitter-Tape Typ C,3
+C,Cb,Cba,"Tapes XXL, 5 cm x 32 m",3
+C,Cb,Cbb,"Tapes, 5 cm x 5 m",3
+C,Cb,Cbc,"Tapes, Sondergrößen",3
+C,Cb,Cbe,Turmalin Tapes,3
+C,Cc,Cca,Aku-Taping (Buch),3
+C,Cc,Ccb,Dolo-Taping (Buch),3
+C,Cc,Ccc,Medi-Taping (Buch),3
+C,Cc,Ccd,weitere Bücher,3
+D,Da,Daa,Karten,3
+D,Da,Dab,Mini-Poster,3
+D,Da,Dac,Poster,3
+D,Da,Dad,weiteres Lehrmaterial,3
+D,Da,Daf,Booklets & Postersets,3
+D,Db,Dba,Anat. Modelle,3
+D,Db,Dbb,Skelette,3
+E,Ef,Efa,Irisdiagnose,3
+E,Ef,Efq,EAV Gerätezubehör,3
+E,En,Ena,Venenwalker,3
+G,Gb,Gba,Desinfektionstücher,3
+G,Gb,Gbb,gebrauchsfertige Lösung,3
+G,Gb,Gbc,Konzentrat,3
+G,Gf,Gfa,Einmal-Nasenschlitztücher,3
+G,Gf,Gff,Liegenpapier,3
+G,Gf,Gfh,Hygienepapier & Spender,3
+G,Gg,Gga,BODE Euro,3
+G,Gg,Ggc,B.BRAUN,3
+G,Gg,Ggd,Kimberly-Clark,3
+G,Gg,Gge,Hygieneständer,3
+G,Gi,Gib,Mundschutz,3
+G,Gi,Gic,Latexhandschuhe,3
+G,Gi,Gid,"PE - Handschuhe, latexfrei",3
+G,Gi,Gie,"Nitrilhandschuhe, latexfrei",3
+G,Gi,Gif,Zubehör,3
+I,Ia,Iaa,Digitale Blutdruckmessgeräte,3
+I,Ia,Iab,Manuelle Blutdruckmessgeräte,3
+I,Ia,Iac,Blutdruckmessgeräte - Zubehör,3
+I,Ib,Iba,Otoskope und Zubehör,3
+I,Ib,Ibb,Diagnostik-Sets,3
+I,Ib,Ibc,Diagnostikleuchten,3
+I,Ib,Ibd,Ohrtipps und Zubehör,3
+I,Ib,Ibe,Ersatzlampen und Batterien,3
+I,Ic,Ica,Irislupen,3
+I,Ic,Icb,IriScope,3
+I,Ic,Icd,Lehrbücher zur Iris / Augendiagnose,3
+I,Ic,Ice,Irismikroskope,3
+I,Id,Ida,weitere Stethoskope,3
+I,Id,Idb,Luxamed - Stethoskope,3
+I,Id,Idc,Littmann - Stethoskope,3
+I,Ie,Ieb,Digitale Thermometer,3
+I,Ie,Iec,Zubehör,3
+I,If,Ifa,Diagnosewaagen,3
+I,If,Ifb,Globuliwaagen,3
+I,If,Ifd,"Winkelmesser, Maßband, Hautmarker",3
+I,If,Ife,Personenwaagen,3
+I,If,Ifg,Rückenmessung,3
+I,Ig,Iga,EKG-Gerät,3
+I,Ig,Igb,Plessimeter,3
+I,Ig,Igc,Reflexhämmer,3
+I,Ig,Igd,Spirometer und Zubehör,3
+I,Ig,Ige,Stimmgabeln,3
+I,Ig,Igf,SpO2 - Meter,3
+I,Ig,Igg,Pulsdiagnostik,3
+I,Ig,Igh,Taschendoppler,3
+I,Ik,Ikb,Software-Programme / Varianten,3
+I,Ik,Ikc,Software-Module,3
+I,Ik,Ikd,Interface / Laser,3
+I,Ik,Ike,Zubehör,3
+J,Jb,Jba,Einmal-Pinzetten,3
+J,Jb,Jbb,Einmal-Skalpelle,3
+J,Jb,Jbc,Mundschutz,3
+J,Jb,Jbd,Mundspatel,3
+J,Jb,Jbe,Nierenschalen,3
+J,Jb,Jbf,Ultraschallgel,3
+J,Jc,Jca,Tupfer,3
+J,Jc,Jcb,Wattestäbchen und Spender,3
+J,Ji,Jia,Scheren,3
+J,Ji,Jib,Watteträger / Tupferzangen,3
+J,Ji,Jic,Pinzetten,3
+L,La,Laa,"Therapiehocker rund, eckig",3
+L,La,Lac,Holzhocker,3
+L,La,Lad,Rundhocker,3
+L,La,Lae,Rundhocker mit Rückenlehne,3
+L,La,Laf,"Polsterhocker, keilform",3
+L,La,Lag,Sattelsitzhocker,3
+L,La,Lah,Hippo-Hocker,3
+L,La,Lai,Reitersattelhocker,3
+L,Lb,Lba,Dreiviertelrollen,3
+L,Lb,Lbb,Halbrollen,3
+L,Lb,Lbc,Kissen,3
+L,Lb,Lbd,Lagerungskeile,3
+L,Lb,Lbe,"Nacken-, Knierollen",3
+L,Lb,Lbf,Positurquader,3
+L,Lb,Lbg,Venenkissen,3
+L,Lb,Lbh,Blackroll,3
+L,Lb,Lbi,Clinibed,3
+M,Ma,Maa,aus Acryl,3
+M,Ma,Mab,mundgeblasen nach Bier,3
+M,Ma,Mac,aus Glas,3
+M,Mb,Mba,PRV-02 Schröpfgerät,3
+M,Mb,Mbb,Bamico Schröpfsysteme,3
+M,Me,Mea,"mundgeblasen, dickwandig",3
+M,Me,Meb,"mundgeblasen, dünnwandig",3
+N,Na,Naa,Vitamine,3
+N,Na,Nab,Spurenelemente,3
+N,Na,Nac,Ubiquinon / Ubiquinol,3
+N,Nb,Nbd,Mund- und Zahnpflege nach Hildegard,3
+N,Nb,Nbe,Tees nach Hildegard,3
+N,Nc,Nca,Primärhefe,3
+N,Nc,Ncb,Bioessenzen,3
+N,Nf,Nfa,NutriBalance Produkte,3
+Q,Qa,Qaa,"Ohrsamen, Magent-, Kugelpflaster",3
+Q,Qa,Qab,Massagestäbe und Zubehör,3
+Q,Qa,Qac,Magnetpflaster - nicht aktiv!,3
+Q,Qa,Qad,Kugelpflaster -nicht aktiv!,3
+Q,Qa,Qae,Gua Sha,3
+Q,Qa,Qaf,SVESA Infrarot Massage,3
+Q,Qc,Qca,Meridianuhren,3
+Q,Qc,Qcb,Punktsuchgeräte,3
+Q,Qc,Qcc,Detektoren,3
+Q,Qc,Qcd,Sieben-Stern-Nadel,3
+Q,Qc,Qce,Cunmeter,3
+Q,Qc,Qcf,Aderlassnadel,3
+Q,Qd,Qda,Seirin-Nadel B-Typ,3
+Q,Qd,Qdb,Seirin-Nadel J-Typ,3
+Q,Qd,Qdc,AcuTop,3
+Q,Qd,Qdd,Seirin-Dauernadeln,3
+Q,Qd,Qde,Cloud Dragon,3
+Q,Qd,Qdf,HWATO,3
+Q,Qd,Qdg,Asia-med,3
+Q,Qd,Qdh,ASP-Dauernadel,3
+Q,Qd,Qdi,Seirin-Nadel L-Typ,3
+Q,Qe,Qea,ACP Elektroakupunkturgerät,3
+Q,Qe,Qeb,EAV Mess- und Therapiegeräte,3
+Q,Qe,Qec,EAV Bioresonanzgeräte,3
+Q,Qe,Qed,EAV Gerätezubehör,3
+Q,Qe,Qee,SVESA Punktselektor,3
+Q,Qf,Qfb,SVESA Grand Mover -nicht alktiv!,3
+Q,Qf,Qfc,Laserakupunkturgeräte,3
+Q,Qf,Qfd,TINNImed 2,3
+Q,Qf,Qfe,Laserneedle,3
+R,Rc,Rce,Eigenblut*,3
+R,Rc,Rcl,Moxatherapie*,3
+R,Rc,Rcq,Reflexzonentherapie*,3
+T,Tb,Tba,HerbaChaud Wärmepflaster,3
+T,Tb,Tbb,Rotlicht & Infrarotstrahler,3
+T,Tb,Tbc,Kirschkernkissen,3
+T,Tb,Tbd,Fußwärmer-Heizdecken,3
+T,Tb,Tbe,Moor,3
+T,Tb,Tbf,TDP - Lampen,3
+T,Tb,Tbg,Laserneedle,3
+T,Tb,Tbh,Calopad,3
+T,Tk,Tka,Swinging Dumbell,3
+T,Tk,Tkb,Therapiekreisel,3
+T,Tk,Tkc,Balanxe Pad,3
+T,Tk,Tkd,Hanteln,3
+T,Tk,Tke,Handtrainer,3
+T,Tk,Tkf,Bodytrainer,3
+T,Tk,Tkg,Igelbälle,3
+T,Tk,Tkh,Kettlebells,3
+T,Tk,Tki,Trainingsgeräte,3
+Y,Ya,Yaa,Massageöle und Massagelotionen,3
+Y,Ya,Yab,methacell BioEnergy Creme / Lotion,3
+Y,Ya,Yad,Weitere Cremen / Lotionen / Öle,3
+Y,Ya,Yae,mse MithoSkin Konzept,3

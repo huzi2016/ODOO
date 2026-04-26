@@ -1,0 +1,28 @@
+id,name,parent_id
+__import__.pc_b78fc4e5df673772f00d,"Skelette, Anat.Modelle, Lehrmittel",Goods
+__import__.pc_4dc2ea2f2bfc196eb817,Labor,Goods
+__import__.pc_8ab12cb65c4be10653a1,Einrichtung & Organisation,Goods
+__import__.pc_1911d8d8758369871d48,Homöopathie,Goods
+__import__.pc_6a5ff15db1bb9a60d3b6,Tensoren & Ruten,Goods
+__import__.pc_e5e4a2a450d3035e71d7,Liegen & Zubehör,Goods
+__import__.pc_58f97bf54f99e349c690,Infusion & Injektion,Goods
+__import__.pc_3bdba063247c26eb418e,Verbandsmaterial,Goods
+__import__.pc_227014d98648d70e20c4,Taping,Goods
+__import__.pc_4f4fce76ea0d882e0b61,Lehrmaterialien,Goods
+__import__.pc_51c041bfa7d7634c62e2,Sammelgruppierung Artikelzubehör,Goods
+__import__.pc_cadcd648b2c88a4e614f,Baunscheidt,Goods
+__import__.pc_cf1d7c81daba7a86a505,Desinfektion & Hygiene,Goods
+__import__.pc_241278a0d79cdc92e45e,Diagnostik,Goods
+__import__.pc_28e4c8e8f4fdf9d40416,Allgemeiner Praxisbedarf,Goods
+__import__.pc_a116a2b036c888f84ee3,Erste Hilfe & Notfall,Goods
+__import__.pc_33ff20f35ea657c48ba0,Hocker & Lagerungsmaterial,Goods
+__import__.pc_268b77efd7433f2ef57d,Schröpfen,Goods
+__import__.pc_db75a6e1edf15fa93863,Nahrungsergänzung,Goods
+__import__.pc_2c3847d8ff44c36efbc9,Ozontherapie,Goods
+__import__.pc_e7ddc5f41a19ba48be9b,Orthopädie,Goods
+__import__.pc_79fe7054497295588250,Akupunktur,Goods
+__import__.pc_5a4c38758a07961ff5f9,Bücher & Medien,Goods
+__import__.pc_4ad51ed68836852d2156,Therapiebedarf & - geräte,Goods
+__import__.pc_e234fc8c633dabae03f2,Sonstiges,Goods
+__import__.pc_dec18c6ededeb2efa5dc,Massage & Wellness,Goods
+__import__.pc_b930ab047651021ca762,Fundgrube,Goods
