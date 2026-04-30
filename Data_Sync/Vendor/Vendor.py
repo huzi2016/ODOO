@@ -24,20 +24,20 @@ for col in df.columns:
 # Build Odoo import format
 # Column names match Odoo fields directly — no manual mapping needed on import
 odoo = pd.DataFrame()
-odoo['ref']                  = df['Vendor_ID'].astype(str)
-odoo['name']                 = df['Company_Name']
+odoo['ref']                  = df['Kreditorennummer'].astype(str)
+odoo['name']                 = df['Firmenname']
 odoo['is_company']           = True
 # Odoo: partner is a **Vendor** when supplier_rank > 0 (without this, only a contact, not a supplier)
 odoo['supplier_rank']        = 1
 odoo['active']               = True
-odoo['street']               = df['Street']
-odoo['zip']                  = df['Zip_Code'].astype(str).str.strip().where(df['Zip_Code'].notna(), None)
-odoo['city']                 = df['City']
-odoo['country_id']           = df['Country']
-odoo['phone']                = df['Phone']
+odoo['street']               = df['Strasse']
+odoo['zip']                  = df['PLZ'].astype(str).str.strip().where(df['PLZ'].notna(), None)
+odoo['city']                 = df['Ort']
+odoo['country_id']           = df['Land']
+odoo['phone']                = df['Telefon']
 odoo['email']                = df['Email']
 odoo['bank_ids/acc_number']  = df['IBAN']
-odoo['bank_ids/bank_bic']    = df['BIC_Swift']
+odoo['bank_ids/bank_bic']    = df['BIC']
 
 odoo.to_excel(OUTPUT_FILE, index=False)
 
